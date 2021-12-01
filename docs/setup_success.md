@@ -33,6 +33,7 @@
    3. mount host folder(소스코드) to ubuntu
 
 ```bash
+# 이건 임시이며, 항상 mount시키고 싶다면, vmware에 공유 폴더 설정해주어야 한다.
 $ sudo mount -t vboxsf ros2-sandbox /home/leoo/shared/ros2-sandbox/
 
 # 이랬더니 스레드 에러 뜨는 듯하다.

@@ -11,8 +11,9 @@
 
 ## setup code
 ```bash
-# on vmware
+# ros2-sandbox on vmware
 $ colcon build
+$ echo 'source /home/leoo/shared/ros2-sandbox/install/setup.bash' >> ~/.bashrc
 ```
 
 

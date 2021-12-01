@@ -32,7 +32,13 @@
 ```
    3. mount host folder(소스코드) to ubuntu
 
-5. install dep
+```bash
+$ sudo mount -t vboxsf ros2-sandbox /home/leoo/shared/ros2-sandbox/
+
+# 이랬더니 스레드 에러 뜨는 듯하다.
+```
+
+1. install dep
 ```bash
 $ sudo apt update
 $ sudo apt install build-essential gcc make perl dkms

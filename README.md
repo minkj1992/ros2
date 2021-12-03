@@ -1,6 +1,8 @@
 # ROS2 Foxy
 > https://www.udemy.com/course/ros2-for-beginners
 
+- [ROS2 Foxy](https://docs.ros.org/en/foxy/index.html)
+- [RMF](https://osrf.github.io/ros2multirobotbook/)
 
 ## setup os env
 - [setup success (✅)](./docs/setup_success.md)

@@ -1,5 +1,4 @@
 # Create package and Build
-<!-- TOC -->autoauto- [1. before start](#1-before-start)auto- [2. build](#2-build)auto    - [2.1. python package](#21-python-package)auto    - [2.2. c++ package](#22-c-package)auto- [3. colcon build](#3-colcon-build)autoauto<!-- /TOC -->
 
 ## 1. before start
 ```bash
@@ -9,8 +8,8 @@ $ source /home/leoo/shared/ros2-sandbox/install/setup.bash
 $ source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 ```
 
-## 2. build
-### 2.1. python package
+## 2. create package
+### 2.1. python
 ```bash
 $ cd src
 $ ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy
@@ -20,7 +19,7 @@ $ ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy
   - pure python packages and tells the build tools to use a setuptools workflow
 - `rclpy`(ROS Client Library for Python)
 
-### 2.2. c++ package
+### 2.2. c++
 ```
 $ cd src
 $ ros2 pkg create my_cpp_pkg --build-type ament_cmake --dependencies rclcpp

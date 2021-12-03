@@ -1,4 +1,4 @@
-# ROS2 Foxy
+# ros2
 > https://www.udemy.com/course/ros2-for-beginners
 
 ## refs

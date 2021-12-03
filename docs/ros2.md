@@ -1,6 +1,6 @@
 # Ros2 
 
-## ROS Concepts and Design Patterns
+## 1. ROS Concepts and Design Patterns
 > https://osrf.github.io/ros2multirobotbook/ros2_design_patterns.html
 
 ![](../static/ros_graph_example.png)
@@ -18,7 +18,7 @@
 - `Parameters`
 - `Callbacks`
 
-## Nodes
+## 2. Nodes
 - Subprograms in your application, responsible for only one thing.
 - Combined into a graph
 - Communicate with each other through `topics`, `services`, and `parameters`.

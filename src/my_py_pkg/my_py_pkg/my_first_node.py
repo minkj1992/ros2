@@ -3,9 +3,10 @@ import rclpy
 from rclpy.node import Node
 
 def main(args=None):
-    node = Node()
     rclpy.init(args=args)
-    rclpy.spin()
+    node = Node("py_node")
+    node.get_logger().info("hello ros2")
+    rclpy.spin(node)
     rclpy.shutdown()
 
 

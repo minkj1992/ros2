@@ -30,3 +30,9 @@ $ ros2 pkg create my_cpp_pkg --build-type ament_cmake --dependencies rclcpp
 $ colcon build # build every packages
 $ colcon build --packages-select my_py_pkg
 ```
+
+## 4. run compiled file
+```bash
+# e.g (pwd=ros2-sandbox)
+$ ./install/my_py_pkg/lib/my_py_pkg/py_node
+```

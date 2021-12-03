@@ -49,7 +49,13 @@ $ ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy
   - pure python packages and tells the build tools to use a setuptools workflow
 - `rclpy`(ROS Client Library for Python)
 
-### build
+### create c++ package ros2
+```
+$ cd src
+$ ros2 pkg create my_cpp_pkg --build-type ament_cmake --dependencies rclcpp
+```
+
+### colcon build
 ```bash
 $ colcon build # build every packages
 $ colcon build --packages-select my_py_pkg

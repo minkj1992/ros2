@@ -29,7 +29,11 @@ $ ros2 pkg create my_cpp_pkg --build-type ament_cmake --dependencies rclcpp
 ```bash
 $ colcon build # build every packages
 $ colcon build --packages-select my_py_pkg
+$ colcon build --packages-select my_py_pkg --symlink-install # for debugging
 ```
+
+- `--symlink-install`
+  - 파이썬의 경우 매번 build 시켜야 하는데, symlink를 넣으면 파이썬 파일이 새로 컴파일 되지 않고도, hot-reloading 시킬 수 있다.
 
 ## 4. run compiled file
 ```bash

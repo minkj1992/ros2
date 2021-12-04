@@ -24,3 +24,11 @@
 - Communicate with each other through `topics`, `services`, and `parameters`.
 - Fault tolerance.
 - 패키지 안에 존재
+
+## 3. Topics
+
+- A Topic is a named bus over which nodes exchange messages
+- Undirectional data stream (pub/sub)
+- Anonymous
+  - pub/sub은 topic과만 통신하며, 데이터가 어디로 부터 오고 가는지 식별하지 않음
+- A topic has a message type

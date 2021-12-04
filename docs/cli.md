@@ -10,3 +10,9 @@ $ ros2 node info
 ```bash
 $ ros2 run my_py_pkg py_node --ros-args --remap __node:=new_name_py_node
 ```
+
+- topic
+
+```bash
+$ ros2 topic echo /robot_news
+```

@@ -67,15 +67,3 @@ $ sudo apt install ros-foxy-desktop
 $ echo 'source /opt/ros/foxy/setup.bash' >> ~/.bashrc
 $ sudo apt install python3-argcomplete
 ```
-
-## Errors
-
-### VirtualBox 공유폴더 권한 오류
-
-```
-# on virtualbox
-$ sudo adduser $USER vboxsf
-```
-
-### VirtualBox가 너무 느리다.
-디스플레이, cpu 적지 않게 할당했는데도, vm이 조금 느리다.(눈에 보일정도의 반응속도) mount가 원인이려나.

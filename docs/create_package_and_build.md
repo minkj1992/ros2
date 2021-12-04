@@ -43,4 +43,3 @@ $ ./install/my_py_pkg/lib/my_py_pkg/py_node
 # or
 $ ros2 run my_py_pkg py_node
 ```
-

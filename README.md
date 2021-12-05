@@ -11,6 +11,9 @@
 - [setup workspace](./docs/setup_workspace.md)
 - [create package and Build](./docs/create_package_and_build.md)
 - [Errors](./docs/errors.md)
+- [MAC OS에서 virtualbox가 너무 느리다고 생각된다면](https://mkyong.com/mac/virtualbox-running-slow-and-lag-on-macos-macbook-pro/)
+- [Ubuntu 20.04에 맥북 keymap 적용](https://github.com/rbreaves/kinto)
+- [Ubuntu zsh setup](./docs/setup_zshrc.md)
 
 ## Introduction to ROS2 `Tools`
 - [ros cli](./docs/cli.md)

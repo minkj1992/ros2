@@ -4,7 +4,7 @@
 ## setup with docker (🚫)
 > [refs](https://roomedia.tistory.com/entry/1%EC%9D%BC%EC%B0%A8-macOS-Catalina-10155%EC%97%90-ros2-foxy-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)
 
-- finally I install ros2 with docker. 
+- finally I install ros2 with docker.
 ```bash
 $ docker pull osrf/ros:noetic-desktop-full-buster
 $ brew install socat
@@ -89,7 +89,7 @@ $ . ~/ros2_foxy/ros2-osx/local_setup.zsh
 - ros2 바이너리 버전을 낮춰서 시도해보았지만 역시 실패
 - big sur과 맞지 않는 source code에러가 있는 듯하다.
 
-### refs 
+### refs
 - [공식](https://docs.ros.org/en/foxy/Installation/macOS-Install-Binary.html)
 - [how-to-install-ros2-foxy-on-macos](https://snowdeer.github.io/ros2/2020/09/15/how-to-install-ros2-foxy-on-macos/)
 - [building-ros2-on-macos-big-sur-m1](http://mamykin.com/posts/building-ros2-on-macos-big-sur-m1/)

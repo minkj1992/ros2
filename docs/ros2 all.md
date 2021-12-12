@@ -1,4 +1,4 @@
-# Ros2 
+# Ros2
 
 ## Terminology
 - Data Distribution Service (DDS)
@@ -24,7 +24,7 @@ DDS는 데이터를 여러곳에 전송하기 위한 서비스로, OMG 표준 pu
 
 
 ## QoS
-QoS는 네트워크 상에 흐르는 데이터의 중요도를 분류하여, 이를 기반으로 우선순위를 부여하는 능력을 뜻합니다. 
+QoS는 네트워크 상에 흐르는 데이터의 중요도를 분류하여, 이를 기반으로 우선순위를 부여하는 능력을 뜻합니다.
 
 ROS에서의 QoS는 "The right data at the right time at the right place"를 구현하기 위해 사용되는 기술이다.
 

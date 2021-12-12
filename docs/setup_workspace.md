@@ -14,7 +14,7 @@ $ sudo echo 'source /opt/ros/foxy/setup.bash' >> /root/.bashrc && sudo reboot
 
 ```bash
 $ sudo -i
-# 생성하지 않았다면 
+# 생성하지 않았다면
 $ ln -s /home/leoo/shared/ros2-sandbox ros2-sandbox
 $ cd ros2-sandbox
 ```

@@ -11,7 +11,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ZSH_THEME="Theme_Name"
 ```
 
-# 4. powerlevel10k install 
+# 4. powerlevel10k install
 > https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
 
 1. install fonts
@@ -42,7 +42,7 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git \
 
 
 ```
-plugins=( 
+plugins=(
     # other plugins...
     zsh-autosuggestions
 )

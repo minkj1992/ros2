@@ -27,5 +27,3 @@
 ## reference
 - [ROS2 Foxy](https://docs.ros.org/en/foxy/index.html)
 - [RMF](https://osrf.github.io/ros2multirobotbook/)
-
-

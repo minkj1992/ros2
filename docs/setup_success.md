@@ -21,7 +21,7 @@
 ```bash
     $ sudo apt-get install keyboard-configuration
     $ sudo dpkg-reconfigure keyboard-configuration
-    
+
     # select macbook pro(intel)
     # MacIntosh
     # English

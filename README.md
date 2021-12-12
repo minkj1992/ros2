@@ -13,7 +13,9 @@
 - [Errors](./docs/errors.md)
 - [MAC OS에서 virtualbox가 너무 느리다고 생각된다면](https://mkyong.com/mac/virtualbox-running-slow-and-lag-on-macos-macbook-pro/)
 - [Ubuntu 20.04에 맥북 keymap 적용](https://github.com/rbreaves/kinto)
+  - kinto 셋업이후, ubuntu에서 한글 적용이 되지 않을 경우
 - [Ubuntu zsh setup](./docs/setup_zshrc.md)
+
 
 ## Introduction to ROS2 `Tools`
 - [ros cli](./docs/cli.md)

@@ -5,7 +5,9 @@
 
 - 실행환경: virtualbox(ubuntu 20.04)
 - mount: 현재 디렉토리
-- 코드작성: host (vscode)
+- 코드작성
+  - vm vs code에서 실행
+  - host에서 코드 작성을 하려하였으나, lint와 링크 기능이 제대로 동작하지 않음
 
 ## setup on virtual box (✅)
 > [setup mac like keyboard on virtual box](https://bradwhittington.wordpress.com/2011/04/08/copy-paste-with-cmd-c-cmd-v-virtualbox-ubuntu-os/)
